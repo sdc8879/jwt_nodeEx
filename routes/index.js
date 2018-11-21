@@ -18,7 +18,7 @@ router.post('/api', function (req, res) {
   payload = {
     "currentdate": "21-11-2018",
     "username": "abcd",
-    "password": "1234"
+    "password": "123"
   };
   var token = jwt.sign(payload, config.secret, {
     expiresIn: '1h' // expires in 24 hours
